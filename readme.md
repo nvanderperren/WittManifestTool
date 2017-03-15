@@ -26,6 +26,11 @@ Finally, we can serialize this hash to json and then save it as a new file.
 
 Below I've included a sample config file (found in the "input" folder) which includes guided comments. Then I've included the script (with comments) that knows what to do with that config information.
 
+__dependencies__
+1. Ruby: https://www.ruby-lang.org/en/documentation/installation/#apt
+2. Thor: https://github.com/erikhuda/thor
+3. Pry: https://github.com/pry/pry
+
 Filename "/input/config-jdso-bnf3155.rb"
 
 		#Config file for Scotus bnf 3114
@@ -384,4 +389,4 @@ File `/bin/manifest` looks like this:
 
 Now, in the command line I just run 
 
-    ./bin manifest create config-dsp-bnf14454 > output/dsp-bnf14454.jsonld
+    ./bin/manifest create config-dsp-bnf14454 > output/dsp-bnf14454.jsonld
